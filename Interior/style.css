@@ -1,0 +1,479 @@
+
+/*
+ Clearfix
+ */
+.clearfix {
+    clear: both;
+}
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/*
+ banner
+ */
+.banner {
+    margin-top: -170px;
+    width: 100%;
+    height: 936px;
+    background: url("images/banner.jpg") top center;
+    display: table;
+}
+
+.banner h1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 83px;
+    font-family: "Roboto Black";
+}
+
+.banner h1 span {
+    color: #f66c27;
+}
+
+/*
+    Header
+ */
+.header {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 170px;
+}
+
+.header .logo {
+
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.main-menu ul li {
+    float: left;
+    font-family: Arial;
+}
+
+.main-menu ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #9a9a9a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu ul li a:hover {
+    color: #f48146;
+}
+.main-menu ul li i {
+    display: inline-block;
+    color: #9a9a9a;
+    font-size: 12px;
+}
+
+/**
+  * Footer
+ */
+footer {
+    background: linear-gradient(to right, #f48146 50%, #ffffff 50%);
+}
+footer .contact-form {
+    box-sizing: border-box;
+    background: #f48146;
+    height: 704px;
+}
+
+footer .content-form {
+    margin-top: 138px;
+    margin-right: 100px;
+    background: #FFF;
+    padding: 60px;
+}
+
+footer .content-form input, textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: #777777;
+    font-size: 15px;
+}
+
+footer .contact-form-row.first-row input {
+    width: 40%;
+}
+
+footer.contact-form-row.first-row:after {
+    content: '';
+    clear: both;
+}
+
+footer .contact-form-row.first-row input[name='email'] {
+    float: right;
+}
+
+footer .content-form textarea {
+    width: 100%;
+    height: 150px;
+}
+
+footer .content-form textarea:focus, input:focus{
+    outline: none;
+}
+
+footer .submit-row {
+    text-align: center;
+}
+
+footer .content-form input[type="submit"] {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 40px;
+    border-radius: 32px;
+    font-family: Poppins-Regular,sans-serif;
+    font-weight: bold;
+}
+
+footer .contact-form-row {
+    margin-bottom: 20px;
+}
+
+footer .contact-info {
+    box-sizing: border-box;
+    padding-left: 50px;
+    height: 704px;
+}
+
+footer .contact-info h3 {
+    margin-top: 120px;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: Roboto-Medium,sans-serif;
+}
+
+footer .line-contact-info {
+    padding: 20px 0;
+}
+
+footer .line-contact-info h4 {
+    font-size: 25px;
+    color: #333333;
+    font-family: Roboto-Medium,sans-serif;
+    font-weight: bold;
+}
+
+footer .line-contact-info p {
+    font-size: 14px;
+    max-width: 305px;
+    font-family: Poppins;
+}
+
+footer .line-contact-info span{
+    color: #f48146;
+}
+
+footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    margin-right :20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+footer .social-icon i:hover {
+    background: #f48146;
+}
+
+/*
+ * Our projects
+ */
+.our-project {
+    padding: 50px 0;
+}
+
+.our-project h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-family: Poppins-Regular,sans-serif;
+    font-weight: bold;
+}
+
+.our-project .project-intro{
+    font-family: Poppins;
+    font-size: 15px;
+    font-family: Poppins-Regular,sans-serif;
+}
+
+.our-project .project-intro span{
+    color: #f48146;
+}
+
+.our-project .project-col img {
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.our-project .project-col-1 img{
+    height: 300px;
+    width: auto;
+}
+
+.our-project .project-col-1 .project-item {
+    margin-bottom: 90px;
+}
+
+.our-project.project-col-1 p {
+    margin-bottom: 35px;
+}
+
+.our-project .project-col-1 a {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+    font-family: Poppins-Regular,sans-serif;
+    font-weight: bold;
+}
+
+.our-project .project-col-2 img{
+    height: 650px;
+    width: auto;
+}
+
+.our-project .project-col-3 img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 48px;
+}
+
+/*
+ * CSS Intro
+ */
+.intro3 {
+    padding: 30px 0;
+}
+
+.intro3 h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Roboto-Medium,sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.intro3 p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Poppins Light";
+    font-size: 15px;
+    color: #888888;
+}
+
+/*Intro-1*/
+.main-content .intro1 .container {
+    height: 636px;
+    box-sizing: border-box;
+    margin: 125px auto;
+}
+
+.intro1 .intro1-img .img1 {
+    position: relative;
+    top: 50px;
+    box-shadow: 25px 25px 25px #e9e9e9;
+}
+.intro1 .intro1-img .img2 {
+    position: absolute;
+    left: 360px;
+    top: 336px;
+    box-shadow: 25px 25px 25px whitesmoke;
+}
+.intro1 .intro1-info {
+    text-align: left;
+    margin-top: 88px;
+    padding-left: 50px;
+}
+.intro1 .intro1-info h2 {
+    font-size: 45px;
+    font-family: Roboto-Medium,sans-serif;
+    font-weight: bold;
+}
+.intro1-info h4 {
+    font-size: 25px;
+    font-family: "Poppins Medium";
+    padding-top: 20px;
+    word-spacing: 82px;
+    color: #ff7b38;
+}
+
+.intro1-info p {
+    font-family: "Poppins Light";
+    font-size: 15px;
+    color: #888888;
+    padding: 20px 0 20px 0;
+}
+
+.intro1 .intro1-info .button-more{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 40px;
+    border-radius: 32px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Poppins-Regular,sans-serif;
+}
+
+/*Intro-2*/
+.intro2 {
+    padding-bottom: 120px;
+}
+.intro2 h3 {
+    font-size: 45px;
+    margin-bottom: 50px;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 700;
+}
+.intro2 .row {
+    height: 400px;
+}
+.intro2 .how-can {
+    text-align: center;
+    padding-left: 30px;
+}
+.intro2 .how-can .icon {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.intro2 .how-can h5 {
+    font-size: 25px;
+    padding: 20px 0;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+.intro2 .how-can p {
+    font-size: 15px;
+    color: #929292;
+    line-height: 1.8;
+    font-family: 'Poppins-Light', sans-serif;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+.intro2 .how-can-2 {
+    box-shadow: 25px 25px 10px whitesmoke;
+}
+
+/*Intro-4*/
+.intro4{
+    height: 360px;
+    width: 100%;
+    background: url("images/sub.jpg") top center;
+    display: block;
+}
+
+.intro4 h3{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Roboto-Medium,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 90px;
+}
+
+.intro4 .subform .f1{
+    background: lightgrey;
+    color: white;
+    display: inline-block;
+    width: auto;
+    padding: 10px 40px;
+    border-radius: 32px;
+    border: 3px solid white;
+}
+
+.intro4 .subform .f2{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 60px;
+    border-radius: 32px;
+    cursor: pointer;
+    box-shadow: 10px 6px 6px #ab6643;
+    font-family: Poppins-Regular,sans-serif;
+    font-weight: bold;
+}
+
+.intro4 .subform{
+    padding-left: 20%;
+    padding-top: 50px;
+}
+
+/*Intro 5*/
+.intro5 {
+    width: 100%;
+    height: 590px;
+    background: #f8f8f8;
+}
+
+.intro5 .container .info {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.info h3 {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.info p {
+    font-family: 'Poppins-Light', sans-serif;
+    font-size: 15px;
+    color: #888888;
+    line-height: 1.8;
+}
+
+.info .Mella{
+    font-size: 16px;
+    color: grey;
+}
+
+.info h6 {
+    color: #fb8b52;
+    margin-top: 28px;
+    font-size: 16px;
+}
+
+.info .icon i {
+    color: #dbdada;
+    font-size: 7px;
+    padding : 15px 3px;
+}
+
+.info .icon i:hover {
+    color: #fb8b52;
+}
+
+.info img {
+    padding: 30px 0 30px 0;
+}
+
+
+/*
+ * End CSS Intro
+ */
